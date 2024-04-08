@@ -1,15 +1,12 @@
 
-/* Estils per al cos de la pàgina */
 body {
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
 }
 
-/* Estils per a la barra de navegació */
 nav {
-  background-color: #ae6f4b;
-  text-align: center;
+  background-color: #5e5e5e;
 }
 
 nav ul {
@@ -34,29 +31,17 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  background-color: #eeb883;
+  background-color: #c6c6c6;
   color: black;
 }
 
-/* Estils per als títols */
 h1 {
-  text-align: center;
-  color: #8c390d;
+  color: #aaaaaa;
+  margin: 20px; 
 }
 
 h2 {
-  text-align: center;
-  color: #8c390d;
+  color: #aaaaaa;
+  margin: 20px; 
 }
-
-/* Estils per a la targeta de la pregunta */
-.card {
-  background-color: #f3f4f6;
-  border-radius: 10px;
-  padding: 20px;
-  margin-bottom: 20px;
-  max-width: 475px; /* Amplada màxima de la targeta */
-  margin: 0 auto; /* Centrar la targeta */
-}
-
 

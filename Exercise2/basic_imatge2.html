@@ -5,46 +5,61 @@
   <title>My project</title>
   <link rel="stylesheet" type="text/css" href="../css/styles.css" />
   <script src="js/script.js"></script>
+  <style>
+    img {
+      width: 30%;
+      height: auto;
+      margin: 20px;
+    }
+
+    section {
+      margin: 20px;
+    }
+  </style>
 </head>
 
 <body>
   <nav>
     <ul>
-      <li><a href="../Exercise1/basic_imatge.html">Exercise 1</a></li>
+      <li><a href="../Exercise1/basic_image.html">Exercise 1</a></li>
       <li><a href="../Exercise2/basic_imatge2.html">Exercise 2</a></li>
       <li><a href="../Exercise3/resolution_switching.html">Exercise 3</a></li>
-      <li><a href="../Exercise4/exercise4.html">Exercise 4</a></li>
-      <li><a href="../Exercise5/exercise5.html">Exercise 5</a></li>
-      <li><a href="../Exercise6/exercise6.html">Exercise 6</a></li>
-      <li><a href="../Exercise7/exercise7.html">Exercise 7</a></li>
-      <li><a href="../Exercise8/exercise8.html">Exercise 8</a></li>
+      <li><a href="../Exercise4/image_alignment.html">Exercise 4</a></li>
+      <li><a href="../Exercise5/image_alignment2.html">Exercise 5</a></li>
+      <li><a href="../Exercise6/image_gallery.html">Exercise 6</a></li>
+      <li><a href="../Exercise7/figure_picture.html">Exercise 7</a></li>
+      <li><a href="../Exercise8/figure_picture2.html">Exercise 8</a></li>
     </ul>
   </nav>
   <br>
   <h1>Image Formats and Attributes</h1>
   <br>
-  <h2>WEBP Image</h2>
+  <h2>· WebP Image</h2>
+  <br>
   <div class="image-container">
-    <img src="../imatges/dosOsosSofa.webp" alt="Description of the first image" width="300" height="200">
+    <img src="../imatges/basic_imageWEBP.webp" alt=" Image of a blue flower, lonely." width="300" height="200">
   </div>
   <br>
   <br>
-  <h2>AVIF Image</h2>
+  <h2>· AVIF Image</h2>
+  <br>
   <div class="image-container">
-    <img src="../imatges/tresOsosSofa.avif" alt="Description of the second image" width="400" height="300">
+    <img src="../imatges/basic_imageAVIF.avif"
+      alt=" Image of a girl, with a diary in her hand and with the other pointing something, sitting on the floor."
+      width="400" height="300">
   </div>
 
   <br>
   <br>
-  <div class="container mx-auto p-5">
-    <div class="card">
-      <h3 class="question"></strong> What is the difference between the real size of the image and these attributes?
-        </strong></h3>
-      <p class="answer">The real size of an image refers to its dimensions in pixels. With the width and height
-        attributes in HTML, you can control the size of the image on the webpage. If you specify dimensions different
-        from the real size, the browser will adjust the image accordingly.</p>
-    </div>
-  </div>
+  <hr>
+  <section>
+    <h3>Question:</h3>
+    <p>What is the difference between the real size of the image and these attributes?</p>
+    <h3>Answer:</h3>
+    <p>The width and height attributes control how big the image appears on the webpage, but they don't change the
+      actual size of the image file. So, if you set the width to 300 pixels and height to 200 pixels, the image will
+      display at that size on the webpage, but the original image file might be bigger or smaller.</p>
+  </section>
 </body>
 
 </html>

@@ -1,0 +1,18 @@
+<img src="../imatges/[image_alignment].map" width="562" height="307" border="0" usemap="#map" />
+
+<map name="map">
+<!-- #$-:Image map file created by GIMP Image Map plug-in -->
+<!-- #$-:GIMP Image Map plug-in by Maurits Rijk -->
+<!-- #$-:Please do not edit lines starting with "#$" -->
+<!-- #$VERSION:2.3 -->
+<!-- #$AUTHOR:ainho -->
+<area shape="circle" coords="257,73,20" href="https://ca.wikipedia.org/wiki/Gos" />
+<area shape="circle" coords="161,147,19" href="https://ca.wikipedia.org/wiki/Lloros" />
+<area shape="circle" coords="332,195,25" href="https://ca.wikipedia.org/wiki/Gat" />
+<area shape="circle" coords="398,237,21" href="https://ca.wikipedia.org/wiki/Rata" />
+<area shape="circle" coords="469,244,29" href="https://ca.wikipedia.org/wiki/Peixos" />
+<area shape="circle" coords="535,255,17" href="https://ca.wikipedia.org/wiki/H%C3%A0mster_com%C3%BA" />
+<area shape="circle" coords="160,253,25" href="https://ca.wikipedia.org/wiki/Conill" />
+<area shape="circle" coords="35,264,25" href="https://ca.wikipedia.org/wiki/Conill_porqu%C3%AD" />
+<area shape="circle" coords="91,261,25" href="https://ca.wikipedia.org/wiki/Chinchilla_chinchilla" />
+</map>
